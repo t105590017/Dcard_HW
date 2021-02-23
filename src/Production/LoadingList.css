@@ -1,0 +1,32 @@
+.LoadingListList{
+    min-width: 700px;
+}
+
+.LoadingListCard {
+    margin: 0px 60px;
+    padding: 20px 0px;
+    cursor: pointer;
+    height: 100%;
+    width: clac(100%-12px);
+    text-align: left;
+}
+
+.LoadingListCardContent{
+    height: 65px;
+    margin: 20px auto;
+}
+
+.LoadingListCardFooter{
+    height: 20px;
+    border-top: 1px solid rgb(233, 233, 233);
+}
+
+.ellispis{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
