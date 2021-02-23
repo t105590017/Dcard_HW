@@ -25,8 +25,6 @@ class ScenicSpotList extends React.Component {
 }
 
 class ScenicSpotCity extends React.Component {
-    
-
     render() {
         const city = this.props.match.params.city;
         const url = Setting.ScenicSpot.City.URL.replace("{0}", city);
