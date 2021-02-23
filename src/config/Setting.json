@@ -1,0 +1,135 @@
+{
+    "Meau": {
+        "Top": [
+            {
+                "Path": "/ScenicSpot",
+                "Display": "全部",
+                "Key": "Taipei"
+            }
+        ],
+        "City": [
+            {
+                "Path": "/ScenicSpot/Taipei",
+                "Display": "臺北市",
+                "Key": "Taipei"
+            },
+            {
+                "Path": "/ScenicSpot/NewTaipei",
+                "Display": "新北市",
+                "Key": "NewTaipei"
+            },
+            {
+                "Path": "/ScenicSpot/Taoyuan",
+                "Display": "桃園市",
+                "Key": "Taoyuan"
+            },
+            {
+                "Path": "/ScenicSpot/Taichung",
+                "Display": "臺中市",
+                "Key": "Taichung"
+            },
+            {
+                "Path": "/ScenicSpot/Tainan",
+                "Display": "臺南市",
+                "Key": "Tainan"
+            },
+            {
+                "Path": "/ScenicSpot/Kaohsiung",
+                "Display": "高雄市",
+                "Key": "Kaohsiung"
+            },
+            {
+                "Path": "/ScenicSpot/Keelung",
+                "Display": "基隆市",
+                "Key": "Keelung"
+            },
+            {
+                "Path": "/ScenicSpot/Hsinchu",
+                "Display": "新竹市",
+                "Key": "Hsinchu"
+            },
+            {
+                "Path": "/ScenicSpot/HsinchuCounty",
+                "Display": "新竹縣",
+                "Key": "HsinchuCounty"
+            },
+            {
+                "Path": "/ScenicSpot/MiaoliCounty",
+                "Display": "苗栗縣",
+                "Key": "MiaoliCounty"
+            },
+            {
+                "Path": "/ScenicSpot/ChanghuaCounty",
+                "Display": "彰化縣",
+                "Key": "ChanghuaCounty"
+            },
+            {
+                "Path": "/ScenicSpot/NantouCounty",
+                "Display": "南投縣",
+                "Key": "NantouCounty"
+            },
+            {
+                "Path": "/ScenicSpot/YunlinCounty",
+                "Display": "雲林縣",
+                "Key": "YunlinCounty"
+            },
+            {
+                "Path": "/ScenicSpot/ChiayiCounty",
+                "Display": "嘉義縣",
+                "Key": "ChiayiCounty"
+            },
+            {
+                "Path": "/ScenicSpot/Chiayi",
+                "Display": "嘉義市",
+                "Key": "Chiayi"
+            },
+            {
+                "Path": "/ScenicSpot/PingtungCounty",
+                "Display": "屏東縣",
+                "Key": "PingtungCounty"
+            },
+            {
+                "Path": "/ScenicSpot/YilanCounty",
+                "Display": "宜蘭縣",
+                "Key": "YilanCounty"
+            },
+            {
+                "Path": "/ScenicSpot/HualienCounty",
+                "Display": "花蓮縣",
+                "Key": "HualienCounty"
+            },
+            {
+                "Path": "/ScenicSpot/TaitungCounty",
+                "Display": "臺東縣",
+                "Key": "TaitungCounty"
+            },
+            {
+                "Path": "/ScenicSpot/KinmenCounty",
+                "Display": "金門縣",
+                "Key": "KinmenCounty"
+            },
+            {
+                "Path": "/ScenicSpot/PenghuCounty",
+                "Display": "澎湖縣",
+                "Key": "PenghuCounty"
+            },
+            {
+                "Path": "/ScenicSpot/LienchiangCounty",
+                "Display": "連江縣",
+                "Key": "LienchiangCounty"
+            }
+        ]
+    },
+    "ScenicSpot": {
+        "List": {
+            "URL": "https://ptx.transportdata.tw/MOTC/v2/Tourism/ScenicSpot",
+            "Params": "$select=Name%2C%20Description&$top={1}&$skip={0}&$format=JSON",
+            "LoadNum": 30
+        },
+        "City": {
+            "URL": "https://ptx.transportdata.tw/MOTC/v2/Tourism/ScenicSpot/{0}",
+            "Params": "$select=Name%2C%20Description&$top={1}&$skip={0}&$format=JSON",
+            "LoadNum": 30
+        }
+    }
+}

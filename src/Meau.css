@@ -1,0 +1,18 @@
+a {
+    text-decoration: none;
+}
+
+.Meau{
+}
+
+.MenuBlock{
+    padding: 15px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    max-height: calc(500px);
+    overflow: auto;
+}
+
+.MenuItem{
+    color: rgb(39, 39, 44);
+    padding: 15px;
+}

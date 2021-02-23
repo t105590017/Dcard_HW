@@ -1,0 +1,24 @@
+.App {
+  height: 100%;
+  max-width: 1200px;
+  text-align: center;
+  display: grid;
+  margin: auto;
+  grid-template-columns: [start] 208px [mainLeft] auto [mainRight] 300px [end];
+  grid-template-rows: 100px auto;
+  grid-template-areas:
+    "header header header header header"
+    "menu  main main main main";
+}
+
+.App-header {
+  grid-area: header;
+}
+
+.App-menu {
+  grid-area: menu;
+}
+
+.App-main {
+  grid-area: main;
+}
