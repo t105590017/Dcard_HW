@@ -5,14 +5,14 @@ import './Meau.css'
 export default class Meau extends React.Component{
     render(){
         const Top = Setting.Meau.Top.map(item => {
-            return (<a href={item.Path}>
+            return (<a key={item.Key} href={item.Path}>
                 <div className="MenuItem">
                     <div>{item.Display}</div>
                 </div>
             </a>)
         })
         const City = Setting.Meau.City.map(item => {
-            return (<a href={item.Path}>
+            return (<a key={item.Key} href={item.Path}>
                 <div className="MenuItem">
                     <div>{item.Display}</div>
                 </div>
