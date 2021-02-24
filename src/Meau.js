@@ -2,6 +2,7 @@ import React from 'react'
 import Setting from './config/Setting.json'
 import './Meau.css'
 
+// 頁面切換選單
 export default class Meau extends React.Component{
     render(){
         const Top = Setting.Meau.Top.map(item => {

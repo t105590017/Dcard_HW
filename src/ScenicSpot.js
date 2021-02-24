@@ -12,6 +12,7 @@ const ScenicSpot = () => {
     )
 }
 
+// 串接 GET /v2/Tourism/ScenicSpot 回傳的資料
 class ScenicSpotList extends React.Component {
     render() {
         return (
@@ -24,6 +25,7 @@ class ScenicSpotList extends React.Component {
     }
 }
 
+// 串接 GET /v2/Tourism/ScenicSpot/{City} 回傳的資料
 class ScenicSpotCity extends React.Component {
     render() {
         const city = this.props.match.params.city;

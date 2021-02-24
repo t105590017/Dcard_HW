@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+// 判斷顯示於畫面上的物件
 export default class Visit extends React.Component {
     static get defaultProps() {
         return {
