@@ -122,12 +122,12 @@
     },
     "ScenicSpot": {
         "List": {
-            "URL": "https://ptx.transportdata.tw/MOTC/v2/Tourism/ScenicSpot",
+            "URL": "https://cors-anywhere.herokuapp.com/https://ptx.transportdata.tw/MOTC/v2/Tourism/ScenicSpot",
             "Params": "$select=Name%2C%20Description&$top={1}&$skip={0}&$format=JSON",
             "LoadNum": 30
         },
         "City": {
-            "URL": "https://ptx.transportdata.tw/MOTC/v2/Tourism/ScenicSpot/{0}",
+            "URL": "https://cors-anywhere.herokuapp.com/https://ptx.transportdata.tw/MOTC/v2/Tourism/ScenicSpot/{0}",
             "Params": "$select=Name%2C%20Description&$top={1}&$skip={0}&$format=JSON",
             "LoadNum": 30
         }
