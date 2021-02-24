@@ -1,5 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
+import './Visit.css'
+import { VscLoading } from "react-icons/vsc";
 
 // 判斷顯示於畫面上的物件
 export default class Visit extends React.Component {
@@ -30,11 +32,13 @@ export default class Visit extends React.Component {
         }
     }
 
+    
+
     render() {
         return (
             <span
-                style={this.props.visitStyle}
-            >
+                // style={this.props.visitStyle}
+            ><VscLoading className="loadding" />
             </span>
         )
     }
