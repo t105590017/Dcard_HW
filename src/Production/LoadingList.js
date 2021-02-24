@@ -51,7 +51,12 @@ export default class LoadingList extends React.Component {
     // 列表中每個item的樣式
     LoadingListCard = ({ index, style, data }) => {
         if (data[index] === "") {
-            return <Visit onVisited={() => { this.loadNewItems() }} />
+            return (
+                <div style={style}>
+                    <div className="LoadingArea" data-index={index}>
+                        <Visit onVisited={() => { this.loadNewItems() }} />
+                    </div>
+                </div>)
         }
         return (
             <div style={style}>
