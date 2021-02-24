@@ -5,7 +5,7 @@ import Visit from './Visit';
 import PropTypes from 'prop-types';
 import AutoSizer from "react-virtualized-auto-sizer";
 
-
+// 列表
 export default class LoadingList extends React.Component {
     static defaultProps = {
         LoadURL: PropTypes.string,
@@ -48,6 +48,7 @@ export default class LoadingList extends React.Component {
             })
     }
 
+    // 列表中每個item的樣式
     LoadingListCard = ({ index, style, data }) => {
         if (data[index] === "") {
             return <Visit onVisited={() => { this.loadNewItems() }} />
