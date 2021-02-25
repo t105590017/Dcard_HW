@@ -19,6 +19,8 @@ npm start
 ```
 ### 2. heroku 上瀏覽
 [Demo](https://dcard-hw.herokuapp.com/)
+(註: 如果無法更新 =>
+[Request temporary access to the demo server](https://cors-anywhere.herokuapp.com/https://ptx.transportdata.tw/))
 
 # 網頁架構
 <img width="500" alt="screen shot 2019-03-07 at 7 29 08 pm" src="https://i.imgur.com/Z08epVy.png">
